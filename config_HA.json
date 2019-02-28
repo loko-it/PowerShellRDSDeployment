@@ -1,14 +1,10 @@
 {
 	MultiDeployment: "Yes",
-	HADeployment: "Yes",
+	HADeployment: "No",
 	ConnectionBroker01: "BR1.rdsfarm.lab",
-	ConnectionBroker02: "BR2.rdsfarm.lab",
 	WebAccessServer01: "WEB1.rdsfarm.lab",
-	WebAccessServer02: "WEB2.rdsfarm.lab",
 	RDGatewayServer01: "RDGW1.rdsfarm.lab",
-	RDGatewayServer02: "RDGW2.rdsfarm.lab",
 	RDSHost01: "RDS1.rdsfarm.lab",
-	RDSHost02: "RDS2.rdsfarm.lab",
 	LICserver: "DC01.rdsfarm.lab",
 	LICmode: "PerUser",
 	DomainController: "DC01.rdsfarm.lab",
@@ -27,5 +23,4 @@
 	SQLServer: "SQL1.rdsfarm.lab",
 	SQLDatabase: "RDSFarm1",
     DomainNetbios: "RDSFarm"
-	
 }
