@@ -181,6 +181,7 @@ if($config.MultiDeployment -like "Yes"){
         $RDSHost01 = $args[3]
         $RDSHost02 = $args[4]
         Import-Module RemoteDesktopServices
+        Remove-Item -Path "RDS:\GatewayServer\RAP\RDG_RAP_RDSFarm1" -Force -recurse
         Remove-Item -Path "RDS:\GatewayServer\CAP\RDG_CAP_AllUsers" -Force -recurse
         Remove-Item -Path "RDS:\GatewayServer\RAP\RDG_RDConnectionBrokers" -Force -recurse
         Remove-Item -Path "RDS:\GatewayServer\RAP\RDG_AllDomainComputers" -Force -recurse
